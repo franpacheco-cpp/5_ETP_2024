@@ -1,0 +1,78 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(207, 182, 112);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(168, 131, 50);
+    padding: 10px 0;
+    border-radius: 6px;
+    color: rgb(214, 188, 133);
+    margin-bottom: 20px;
+}
+
+#tabla {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgb(202, 176, 59);
+    border: 2px solid rgb(202, 158, 61);
+}
+
+#tabla th, #tabla td {
+    padding: 10px;
+    border: 1px solid rgb(202, 158, 61);
+}
+
+#tabla th {
+    background-color: rgb(168, 131, 50);
+    color: white;
+}
+
+#tabla tbody tr:hover {
+    background-color: rgb(168, 131, 50);
+    color: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+    padding: 8px 20px;
+    background-color: rgb(168, 131, 50);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+form button[type="submit"]:hover {
+    background-color: rgb(202, 158, 61);
+}
+
+h3 {
+    color: rgb(168, 131, 50);
+}
+
+#valorTotalInventario {
+    font-size: 1.5em;
+    font-weight: bold;
+}
