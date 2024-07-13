@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cámara Frigorífica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h2>Frigoríficos Patagónicos S.A.</h2>
+        <h5>Est. 1958</h5>
+    </header>
+    <section class="Tabla">
+        <table id="Tabla">
+            <thead>
+                <th>ID</th>
+                <th>Tipo</th>
+                <th>Capacidad máxima</th>
+                <th>Cantidad actual</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+    <section class="Botones">
+        <button onclick="mostrarTotalFrutas()">Devolver cantidad total de frutas almacenadas</button>
+        <button onclick="mostrarMaxFrutas()">Encontrar cámara frigorífica con mayor cantidad de frutas</button>
+        <button onclick="mostrarMinFrutas()">Encontrar cámara frigorífica con menor cantidad de frutas</button>
+        <button onclick="mostrarPromedioCapacidad()">Devolver promedio de capacidad</button>
+        <button onclick="mostrarCamarasLlenas()">Encontrar cámaras frigoríficas llenas</button>
+        <button onclick="mostrarPorcentajesCapacidad()">Devolver porcentajes de capacidad</button>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
