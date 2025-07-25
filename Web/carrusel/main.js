@@ -8,12 +8,6 @@ const imagenes = [
 
 let imagenActual = 0;
 
-function cargarFoto(array){
-    const carrusel = document.getElementById("carrusel");
-    carrusel.innerHTML = ""
-    carrusel.innerHTML = `<img src="${imagenes[imagenActual].imagen}" alt="${imagenes[imagenActual].descripcion}" onclick="siguiente(imagenes)"></img>`
-}
-
 function siguiente(array){
     if (imagenActual < array.length-1) {
         imagenActual++;
@@ -23,5 +17,11 @@ function siguiente(array){
         imagenActual = 0;
         cargarFoto(imagenes);
     }
-
 }
+
+function cargarFoto(array){
+    const carrusel = document.getElementById("carrusel");
+    carrusel.innerHTML = ""
+    carrusel.innerHTML = `<img src="${imagenes[imagenActual].imagen}" alt="${imagenes[imagenActual].descripcion}" onclick="siguiente(imagenes)"></img>`
+}
+
